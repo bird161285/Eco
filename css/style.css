@@ -1,0 +1,188 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 auto;
+    font-family: "open sans";
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+}
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+input, button, textarea {
+    font-family : "open sans"
+}
+.container {
+    width: 1010px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+header .login {
+    font-size: 13px;
+    line-height: 18px;
+    color: #0069b4;
+}
+header .menu a{
+    font-size: 13px;
+    line-height: 28px;
+    color: #333333;
+}
+header .phone {
+    font-size: 20px;
+    line-height: 20px;
+    color: #333333;
+    text-decoration: none;
+}
+header .callback {
+    font-size: 12px;
+    line-height: 16px;
+    text-decoration: none;
+    color: #0069b4;
+    border-bottom: 1px dashed #0069b4;
+}
+header p.timing {
+    font-size: 13px;
+    line-height: 19px;
+    color: #999999;
+}
+header .basket {
+    font-size: 13px;
+    line-height: 22px;
+    color: #333333;
+    text-decoration: none;
+    display: inline-block;
+    padding-left: 28px;
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+header .bascet span {
+    color: #1a9547;
+}
+header [class*="icon"] {
+    color: #caebd4;
+}
+header .login [class*="icon"] {
+    font-size: 18px;
+}
+header .phone [class*="icon"] {
+    font-size: 20px;
+}
+.advantages .item span {
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 17px;
+
+}
+.advantages .item p {
+    font-size: 12px;
+    line-height: 14px;
+    color: #666666;
+}
+.subscribe label {
+    font-size: 16px;
+    color: #ffffff;
+}
+.subscribe input {
+    font-size: 13px;
+    line-height: 37px;
+    color: #999999;
+}
+.subscribe button {
+    font-size: 13px;
+    line-height: 37px;
+    text-align: center;
+    color: #ffffff;
+}
+.subscribe .wrap {
+    font-size: 12px;
+    color: rgba(255,255,255,0.5);
+}
+.filter li {
+    font-size: 13px;
+    line-height: 16px;
+    border-bottom: 1px dashed #666666;
+}
+.card .name {
+    font-size: 15px;
+    line-height: 22px;
+    color: #333333;
+}
+.card a {
+    font-size: 15px;
+    line-height: 22px;
+    color: #0069b4;
+}
+
+.card .price {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    color: #333333;
+}
+.card .old {
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 16px;
+    text-decoration:  line-through;
+    color: #333333;
+}
+.card .button {
+    font-size: 14px;
+    line-height: 32px;
+    text-align:  center;
+    color: #ffffff;
+}
+.social h2 {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 22px;
+    text-align:  center;
+    color: #666666;
+}
+.tabs li a {
+    font-size: 14px;
+    text-decoration:  line-through;
+    line-height: 16px;
+    color: #999999;
+}
+.info .content {
+    font-size: 12px;
+    line-height: 16px;
+    color: #333333;
+}
+.info .title {
+    text-transform: uppercase;
+}
+footer {
+    font-size: 13px;
+    line-height: 22px;
+    color: #ffffff;
+    background: #1a9547;
+}
+footer a {
+    text-decoration: none;
+    color: #ffffff;
+}
+footer a.soc {
+    font-size: 21px;
+   }
+.sale{
+    width: 305px;
+    height: 360px;
+}
+.slider {
+    width: 640px;
+    height: 360px;
+}
+.menu li {
+    display: inline-block;
+}
+.menu li+li{
+    margin-left: 20px;
+}
